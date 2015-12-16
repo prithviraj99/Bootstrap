@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <!-- Website Title & Description for Search Engine purposes -->
+  <title>My Responsive website</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="includes/css/styles.css" rel="stylesheet">
+
+  <!-- Include Modernizr in the head, before any other Javascript -->
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <div class="container" id="main">
+    <div class="navbar navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><img src="img/logo3.jpg" alt="logo"></a>
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="index2.html">Portfolio</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Web design</a>
+                </li>
+                <li>
+                  <a href="#">Web development</a>
+                </li>
+                <li>
+                  <a href="#">SEO</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">More Services</li>
+                <li>
+                  <a href="#">Content Creation</a>
+                </li>
+                <li>
+                  <a href="#">Social Media Marketing</a>
+                </li>
+              </ul><!--end dropdown-menu-->
+            </li>
+            <!-- <li>
+            <a href="#">Services</a>
+          </li> -->
+          <li>
+            <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact-us</a>
+          </li>
+          <li>
+            <a type="button" data-toggle="collapse" data-target="#ex1" aria-expanded="true">More</a>
+          </li>
+        </ul>
+        <div id="ex1" class="collapse navbar-collapse">
+          <form class="navbar-form pull-left">
+            <input type="text" class="form-control" placeholder="Search this site.." id="searchinput">
+            <button type="submit" class="btn btn-default" ><span class="glyphicon glyphicon-search"></span></button>
+          </form><!--end navbar-form-->
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My account <strong class="caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"> <span class="glyphicon glyphicon-wrench"></span> Settings</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+                </li>
+                <li class="divider">
+                </li>
+                <li>
+                  <a href="#"> <span class="glyphicon glyphicon-off"></span> Sign out</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div><!--end navbar-->
+
+  <div class="carousel slide" id="mycarousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target="#mycarousel">
+
+      </li>
+      <li data-slide-to="1" data-target="#mycarousel"></li>
+      <li data-slide-to="2" data-target="#mycarousel"></li>
+    </ol>
+    <!--Wrapper-->
+    <div class="carousel-inner">
+      <div class="item active" id="slide1">
+        <div class="carousel-caption">
+          <h1>
+            <small>WELCOME TO &nbsp;</small><br>
+            <big>HELL RIDER</big>
+          </h1>
+          <h6>LUXURY BIKE RENTALS </h6>
+          <a href="#"><span> &gt; &nbsp; BOOK NOW </span></a>
+        </div><!--end Carousel-caption-->
+
+      </div><!--end item-->
+      <div class="item" id="slide2">
+        <div class="carousel-caption">
+          <h1>
+            <small>WELCOME TO &nbsp;</small><br>
+            <big>HELL RIDER</big>
+          </h1>
+          <h6>LUXURY BIKE RENTALS </h6>
+          <a href="#"><span> &gt; &nbsp; BOOK NOW </span></a>
+        </div><!--end Carousel-caption-->
+
+      </div><!--end item-->
+      <div class="item" id="slide3">
+        <div class="carousel-caption">
+          <h1>
+            <small>WELCOME TO &nbsp;</small><br>
+            <big>HELL RIDER</big>
+          </h1>
+          <h6>LUXURY BIKE RENTALS </h6>
+          <a href="#"><span> &gt; &nbsp; BOOK NOW </span></a>
+        </div><!--end Carousel-caption-->
+
+      </div><!--end item-->
+
+    </div><!--carousel-inner-->
+    <!--Controls-->
+    <a href="#mycarousel" class="left carousel-control" data-slide="prev">
+      <span class="icon-prev">
+
+      </span>
+    </a>
+    <a href="#mycarousel" class="right carousel-control" data-slide="next">
+      <span class="icon-next">
+
+      </span>
+    </a>
+
+  </div><!--end mycarousel-->
+  <div class="well well-small visible-sm">
+   <a href="" class="btn btn-large btn-block btn-default"> <span class="glyphicon glyphicon-phone"> Give us a call!</span></a>
+ </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>ABOUT US</h2>
+      <p class="lead">Our mission is to 'inspire biking'</p>
+      <p>We enjoy creating a sense of space, place and community and love it when people join us in our passion. Hell Rider is not just a place to get the best bikes and service but to also connect with like minded people, geek over bikes and to immerse yourself in biking.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="col-sm-4">
+      <h2>OUR RIDERS</h2>
+      <section>
+        <img src="img/rider.jpg" alt="riderimage"class="irider pull-left img-circle" />
+        <p>Amazing riding experience in Bangalore city first with the Thunderbird 500 Royal Enfield and very very friendly team. " I'LL BE BACK".</p>
+        <p class="italic pull-right">Gavin Morlini</p>
+      </section><br>
+      <hr>
+      <section>
+        <img src="img/rider2.jpg" alt="rider2image" class="irider pull-left img-circle" />
+        <p>I have been a Harley Davidson fan for a time more than I have known. All my friends have experienced my obsession with Harley and they will vouch for it. But for most of us, owning a Harley comes at a cost. And in situations like this Wicked Ride comes to your rescue. </p>
+        <p class="italic pull-right">Mihir Kulkarni</p>
+      </section>
+    </div>
+    <div class="col-sm-4">
+      <h2>FEATURED ARTICLES</h2>
+      <section>
+        <img src="img/article.png" alt="articleimage" class="iarticle pull-left"/>
+        <div class="article">
+          <h4>NOW, A HARLEY-DAVIDSON ON RENT</h4>
+          <p>Featured on Aug 26, 2014</p>
+          <span class="pull-right"><a href="#">&nbsp;READ THIS ARTICLE</a></span>
+        </div>
+      </section><br>
+      <hr>
+      <section>
+        <img src="img/article2.png" alt="article2image" class="iarticle pull-left">
+        <div class="article">
+          <h4>RIDING THE DREAM MACHINES</h4>
+          <p>Featured on Sep 01, 2014</p>
+          <span class="pull-right"><a href="#">&nbsp;READ THIS ARTICLE</a></span>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>OUR FLEET</h2>
+      <ul>
+        <li class="col-sm-2"><a href="#">HARLEY-DAVIDSON</a></li>
+        <li class="col-sm-2"><a href="#">TRIUMPH</a></li>
+        <li class="col-sm-2"><a href="#">ROYAL ENFIELD</a></li>
+        <li class="col-sm-2"><a href="#">KAWASAKI</a></li>
+        <li class="col-sm-2"><a href="#">BENELLI</a></li>
+        <li class="col-sm-2"><a href="#">DUCATI</a></li>
+      </ul>
+      <hr>
+      <br>
+      <ul>
+        <li ><a href="#">
+          <div class="bike col-sm-4">
+
+            <img src="img/bike11.jpg" alt="bike11" />
+            <p>IRON 883</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike12.jpg" alt="bike12" />
+            <p>SUPERLOW</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike13.jpg" alt="bike13" />
+            <p>STREET 750</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike14.jpg" alt="bike14" />
+            <p>BONNEVILLE</p></div> </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike15.jpg" alt="bike15" />
+            <p>DESERT STORM-500</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike16.jpg" alt="bike16" />
+            <p>BULLET-ELECTRA 350</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike17.jpg" alt="bike17" />
+            <p>DESERT STORM-500</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike18.jpg" alt="bike18" />
+            <p>DESERT STORM-500</p></div>  </a>
+          </li>
+          <li><a href="#"><div class="bike col-sm-4">
+
+            <img src="img/bike19.jpg" alt="bike19" />
+            <p>DESERT STORM-500</p></div>  </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="map col-sm-12">
+        <h4><span class="glyphicon glyphicon-map-marker"></span>FIND US NEAR YOU</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5681128308547!2d77.61172481450129!3d12.935456619171054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1450245451025" width="800" height="600" frameborder="0" style="border:0" allowfullscreen>
+
+        </iframe>
+        <div class="form_content col-sm-10">
+          <form class="form-inline" >
+            <div class="form-group col-sm-5">
+              <!-- <label for="exampleInputName2">Name</label>
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe"> -->
+              <select class="form-control">
+                <option>Bangalore</option>
+                <option>Mysore</option>
+                <option>Chennai</option>
+                <option>Mumbai</option>
+                <option>Gurgaon</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-5">
+              <!-- <label for="exampleInputEmail2">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com"> -->
+              <select class="form-control">
+                <option>Koramnagala</option>
+                <option>JP Nagar</option>
+                <option>Electronic city</option>
+
+              </select>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+<a href="#mymodal" class="btn btn-warning btn-block" role="button" data-toggle="modal"> <span class="glyphicon glyphion-hand-up"></span>Click here for Queries </a>
+    <form class="form-inline col-sm-12">
+
+      <div class="alert alert-success alert-block fade in" id="successalert">
+        <button type="button" data-dismiss="alert" class="close">&times;</button>
+        <h4>Success!</h4>
+        <p>We won't spam your inbox</p>
+      </div>
+
+      <div class="form-group col-sm-6">
+
+        <input type="password" class="form-control col-sm-4" id="inputPassword2" placeholder="Enter Email to subscribe"><br>
+
+      </div>
+      <button type="submit" class="btn btn-primary col-sm-2" id="alertme">Subscribe</button>
+
+      <div class="modal fade" id="mymodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Query window</h4>
+
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal">
+                <div class="form-group clearfix">
+                  <label class="col-lg-2 control-label" for="inputName">Name</label>
+                  <div class="col-lg-10">
+                    <input class="form-control" id="inputName" placeholder="Name" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group clearfix">
+                  <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                  <div class="col-lg-10">
+                    <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                  </div>
+                </div>
+                <div class="form-group clearfix">
+                  <label class="col-lg-2 control-label" for="inputmobile">Mobile no</label>
+                  <div class="col-lg-10">
+                    <input class="form-control" id="inputmobile" placeholder="Mobile no" type="text">
+                  </div>
+                </div>
+
+
+                <div class="form-group col-sm-12 pull-left">
+                  <label class=" control-label pull-left" for="inputMessage">Message</label>
+                  <textarea class="form-control col-lg-12" id="inputMessage" placeholder="Your query" rows="3" name="name"></textarea>
+
+
+                    <!-- <button class="btn btn-success" type="submit" name="button">Send!</button> -->
+
+                </div>
+
+
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" name="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+              <button type="button" name="button" class="btn btn-primary">Save changes</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+
+  </div><!--end container main-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h6>Copyright &copy; 2013 {name}</h6>
+        </div>
+        <div class="col-sm-4">
+          <h6>About Us</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-sm-2">
+          <h6>Navigation</h6>
+          <ul class="unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h6>Follow us</h6>
+          <ul class="unstyled">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Google plus</a></li>
+          </ul>
+
+        </div>
+        <div class="col-sm-2">
+          <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Prithvi</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- All Javascript at the bottom of the page for faster page loading -->
+
+  <!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,339 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+  text-align: center;
+}
+#features img {
+  margin: 0 0 20px;
+}
+#inputmessage {
+  margin-bottom: 15px;
+}
+footer{
+  background: #333;
+  color:#eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+}
+.well .page-header {
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchinput {
+  width: 200px;
+}
+.navbar-brand {
+    padding: 0;
+  padding-left: 15px;
+  margin-right: 75px;
+}
+.navbar-brand img{
+  width: 250px;
+  height:50px;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel .item {
+  height:640px;
+}
+#mycarousel {
+  margin-top: 60px;
+}
+.carousel-caption {
+  font-size: 24px;
+
+}
+.carousel-caption h1 small{
+  font-size: 40px;
+  color: #f5f5f5;
+}
+.carousel-caption h1 big{
+  font-size: 60px;
+}
+.carousel-caption h6 {
+  font-size: 15px;
+ border-bottom: #ffffff solid 1px;
+}
+.carousel-caption a {
+  text-decoration: none;
+ font-size: 13px;
+ color: #f5f5f5;
+}
+.carousel-caption h4 {
+  font-size: 32px;
+}
+#slide1 {
+  background:url('../../img/mainimage.jpg') bottom center no-repeat;
+}
+#slide2 {
+  background:url('../../img/bike22.jpg') bottom center no-repeat;
+}
+#slide3 {
+  background:url('../../img/bike23.jpg') bottom center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+.well{
+  margin: 20px 0;
+}
+.tabbable img.thumbnail {
+  margin: 0 20px 10px 0;
+}
+.thumbnails{
+  margin: 20px 0;
+}
+.thumbnail{
+  position: relative;
+}
+.thumbnail h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
+}
+.thumbnail .price sup{
+  font-weight: normal;
+  font-size: 12px;
+}
+.thumbnail span.glyphicon {
+  margin-right:5px;
+}
+.irider.pull-left,.iarticle.pull-left {
+  margin: 0 20px 10px 0;
+  }
+.bike.col-sm-4 img{
+  width:376px;
+  height:155px;
+}
+.bike.col-sm-4 {
+  padding:0;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  text-decoration: none;
+}
+.col-sm-12 {
+  text-align: center;
+}
+span.col-sm-2 {
+    background-image: url(img/icons.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 14px;
+    background-position: -214px -39px;
+    float: right;
+}
+.ques.col-sm-10 {
+  text-align: left;
+}
+.bbikes.col-sm-4 img{
+  width: 300px;
+  height:300px;
+}
+.heading {
+  margin-top: 50px;
+}
+.map.col-sm-12 h4 {
+  font-size: 30px;
+}
+a.btn.btn-warning.btn-block{
+  margin-bottom: 20px;
+}
+.modal-body{
+  height:290px;
+}
+.map.col-sm-12{
+  padding: 0;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .thumbnail .price{
+    font-size: 14px;
+  }
+  .thumbnail .price sup{
+    font-size: 10px;
+  }
+  .navbar-brand{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .map.col-sm-12 iframe{
+    width:300px;
+
+  }
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  #mycarousel .item {
+    height:485px;
+  }
+  .map.col-sm-12 iframe{
+    width:470px;
+
+  }
+  .navbar-brand{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #slide1 {
+    background:url('../../img/mainimage2.jpg') bottom center no-repeat;
+  }
+  #slide2 {
+    background:url('../../img/slide2_2.jpg') bottom center no-repeat;
+  }
+  #slide3 {
+    background:url('../../img/slide3_2.jpg') bottom center no-repeat;
+  }
+   .carousel-caption {
+     font-size: 16px;
+
+   }
+   .bike.col-sm-4 img{
+     width:300px;
+     height:100px;
+   }
+
+   .carousel-caption h4 {
+     font-size: 22px;
+   }
+   .form_content.col-sm-10{
+     left: 149px;
+    bottom: 425px;
+    width:340px;
+   }
+}
+
+
+@media(min-width:768px) and (max-width:1200px)
+ {
+  .bike.col-sm-4 img{
+    width:230px;
+    height:60px;
+  }
+  .form_content.col-sm-10{
+    left: 150px;
+    bottom: 425px;
+  }
+  .map.col-sm-12 iframe{
+    width:700px;
+
+  }
+  .navbar-brand img {
+    width:150px;
+  }
+  .navbar-brand{
+    margin-right:15px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mycarousel .item {
+    height:780px;
+  }
+  #slide1 {
+    background:url('../../img/mainimage1.jpg') bottom center no-repeat;
+  }
+  #slide2 {
+    background:url('../../img/slide2_1.jpg') bottom center no-repeat;
+  }
+  #slide3 {
+    background:url('../../img/slide3_1.jpg') bottom center no-repeat;
+  }
+  .carousel-caption {
+    bottom: 380px;
+right: 726px;
+  }
+  .carousel-caption h1 small{
+    font-size: 40px;
+    color: #f5f5f5;
+  }
+  .carousel-caption h1 big{
+    font-size: 60px;
+  }
+  .carousel-caption h6 {
+    font-size: 15px;
+   border-bottom: #ffffff solid 1px;
+  }
+  .carousel-caption a {
+    text-decoration: none;
+   font-size: 13px;
+   color: #f5f5f5;
+  }
+  .map.col-sm-12 iframe{
+    width:1170px;
+
+  }
+  .map.col-sm-12 {
+    height: 670px;
+  }
+  .form_content.col-sm-10 {
+    position: relative;
+bottom: 426px;
+    left: 178px
+  }
+  .carousel-inner {
+    height:650px;
+  }
+
+}
+
+
+}
